@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+}
+
+
+ul .li {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul .li:hover {
+    transform: translateX(10px);
+    background-color: black;
+    border-radius: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}

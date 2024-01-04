@@ -1,0 +1,33 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.d-flex {
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.d-flex a {
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+}
+
+.d-flex a:hover {
+    transform: scale(1.1);
+}
+
+.info .navbar-brand {
+    transition: all 0.3s;
+}
+
+.info .navbar-brand:nth-child(1):hover {
+    transform: translateX(-10px)
+}
+
+.info .navbar-brand:nth-child(2):hover {
+    transform: translateX(10px)
+}
